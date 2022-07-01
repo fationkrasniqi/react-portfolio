@@ -64,8 +64,27 @@ const Portfolio = () => {
               </div>
             </div>}
 
-         
-         
+            {
+              <div className='box btn_shadow '>
+              <div className='img'>
+                  <img src= {htmlcss} alt='' />
+              </div>
+              <div className='category d_flex'>
+                  <span>HtmlCss Project</span>
+                  <label>
+                    <i className='far fa-heart'></i> Html/Css
+                  </label>
+              </div>
+              <div className='title'>
+                  <h2>Html - Css project </h2>
+                <a href='' className='arrow'>
+                  <i class='fas fa-arrow-right'></i>
+                </a> 
+                <a href="https://github.com/fationkrasniqi/firstproject" target="_blank">
+                  <input className="buton3" type="button"  value="View project"></input>
+                </a>
+              </div>
+            </div>}
 
           
 
