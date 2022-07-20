@@ -3,7 +3,7 @@ import "./Portfolio.css";
 
 import movie1 from "../pic/movie1.png";
 import hamburger from "../pic/hamburger.png";
-import htmlcss from "../pic/htmlcss.png";
+import foodorder from "../pic/foodorder.png";
 
 
 const Portfolio = () => {
@@ -67,20 +67,20 @@ const Portfolio = () => {
             {
               <div className='box btn_shadow '>
               <div className='img'>
-                  <img src= {htmlcss} alt='' />
+                  <img src= {foodorder} alt='' />
               </div>
               <div className='category d_flex'>
-                  <span>HtmlCss Project</span>
+                  <span>Food order</span>
                   <label>
-                    <i className='far fa-heart'></i> Html/Css
+                    <i className='far fa-heart'></i> MERN
                   </label>
               </div>
               <div className='title'>
-                  <h2>Html - Css project </h2>
+                  <h2>Food Order (Starlabs Intership)  </h2>
                 <a href='' className='arrow'>
                   <i class='fas fa-arrow-right'></i>
                 </a> 
-                <a href="https://github.com/fationkrasniqi/firstproject" target="_blank">
+                <a href="https://github.com/fationkrasniqi/foodorder" target="_blank">
                   <input className="buton3" type="button"  value="View project"></input>
                 </a>
               </div>
