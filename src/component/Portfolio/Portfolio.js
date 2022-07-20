@@ -18,6 +18,28 @@ const Portfolio = () => {
 
           <div className='content grid'>
            
+          {
+              <div className='box btn_shadow '>
+              <div className='img'>
+                  <img src= {foodorder} alt='' />
+              </div>
+              <div className='category d_flex'>
+                  <span>Food order</span>
+                  <label>
+                    <i className='far fa-heart'></i> MERN
+                  </label>
+              </div>
+              <div className='title'>
+                  <h2>Food Order (Starlabs Intership)  </h2>
+                <a href='' className='arrow'>
+                  <i class='fas fa-arrow-right'></i>
+                </a> 
+                <a href="https://github.com/fationkrasniqi/foodorder" target="_blank">
+                  <input className="buton3" type="button"  value="View project"></input>
+                </a>
+              </div>
+            </div>}
+
 
             {
               <div className='box btn_shadow '>
@@ -64,27 +86,7 @@ const Portfolio = () => {
               </div>
             </div>}
 
-            {
-              <div className='box btn_shadow '>
-              <div className='img'>
-                  <img src= {foodorder} alt='' />
-              </div>
-              <div className='category d_flex'>
-                  <span>Food order</span>
-                  <label>
-                    <i className='far fa-heart'></i> MERN
-                  </label>
-              </div>
-              <div className='title'>
-                  <h2>Food Order (Starlabs Intership)  </h2>
-                <a href='' className='arrow'>
-                  <i class='fas fa-arrow-right'></i>
-                </a> 
-                <a href="https://github.com/fationkrasniqi/foodorder" target="_blank">
-                  <input className="buton3" type="button"  value="View project"></input>
-                </a>
-              </div>
-            </div>}
+          
 
           
 
